@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8054592202980134921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8054592202980134927}
+  - component: {fileID: 8054592202980134926}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8054592202980134927
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8054592202980134921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5, y: 0.3, z: -2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8054592202980134926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8054592202980134921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e04adf425a160410fb71a7a052f061b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - tag: EnemyDie
+    clip: {fileID: 8300000, guid: 96f8fdb624985455a9c86438693a36fd, type: 3}
+    volume: 0.278
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - tag: EnemySpike
+    clip: {fileID: 8300000, guid: 8f322008e5736421ea96fa523cca1579, type: 3}
+    volume: 0.198
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - tag: EnemyStep
+    clip: {fileID: 8300000, guid: 0890569b608a9465fbc5e558eeeb65f8, type: 3}
+    volume: 0.154
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - tag: Tap
+    clip: {fileID: 8300000, guid: 0cd72c788c27940db9a1723129002691, type: 3}
+    volume: 0.234
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - tag: Select
+    clip: {fileID: 8300000, guid: 65e41424371a145718a0d5d5f873e794, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - tag: Swipe
+    clip: {fileID: 8300000, guid: f102eeaa7ad354034aa424a737ab26da, type: 3}
+    volume: 0.183
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - tag: SwipeMenu
+    clip: {fileID: 8300000, guid: f102eeaa7ad354034aa424a737ab26da, type: 3}
+    volume: 0.161
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - tag: ComboFail
+    clip: {fileID: 8300000, guid: 1084dbc59892348e0969bc5854e98b69, type: 3}
+    volume: 0.198
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - tag: ComboHit
+    clip: {fileID: 8300000, guid: 00c0fc2f499274f5695657832ef120e4, type: 3}
+    volume: 0.154
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - tag: ComboMove
+    clip: {fileID: 8300000, guid: aca9f0dc94e5849d58c56e2ed41f3ce4, type: 3}
+    volume: 0.198
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - tag: ComboStart
+    clip: {fileID: 8300000, guid: da12631f6a8d444498c1524985c7e094, type: 3}
+    volume: 0.235
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - tag: Shoot
+    clip: {fileID: 8300000, guid: 11a90ddba9823492fa34ca57765b402c, type: 3}
+    volume: 0.161
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - tag: SwipeWalk
+    clip: {fileID: 8300000, guid: 72272818d4af842d7afca045809f724b, type: 3}
+    volume: 0.147
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  musics:
+  - tag: MenuSong
+    clip: {fileID: 8300000, guid: 8cccff95d2ae988469d2fc9b80213e77, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - tag: Countdown
+    clip: {fileID: 8300000, guid: 8310ae512e0481d4ba382da6898ebdf5, type: 3}
+    volume: 0.313
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - tag: LoopTrack
+    clip: {fileID: 8300000, guid: 5067a6476530ecc4d8ca7b004c90babf, type: 3}
+    volume: 0.412
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - tag: TrackBegin
+    clip: {fileID: 8300000, guid: e57ab7621e66c4742b753b0b1e3a714e, type: 3}
+    volume: 0.384
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}

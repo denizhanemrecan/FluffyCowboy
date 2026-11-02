@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/Gokhan/Cutscene1.unity
+    guid: b354b5766536de54cb1a1977d394cc95
+  - enabled: 1
+    path: Assets/Scenes/Utku/Utku Menu.unity
+    guid: 9b0f84068e79c5c4ebed24fd51bb36db
+  - enabled: 0
+    path: Assets/Scenes/Utku/Level 1.unity
+    guid: d14246d5e64ce334686a12048ad52f81
+  - enabled: 1
+    path: Assets/Scenes/Cem/Level 2.unity
+    guid: 9974f8cef9e414ba48d1b4b336b2c3bb
+  m_configObjects: {}
